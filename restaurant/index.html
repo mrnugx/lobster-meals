@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lobster Meals | Modern Dining</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <a href="#" class="logo">Lobster <span>Meals</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Experience</a>
+        <a href="#menu">Menu</a>
+        <a href="#reservations" class="btn-primary" style="margin-left: 1rem"
+          >Book a Table</a
+        >
+      </div>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="subtitle slide-up">Est. 2026</span>
+          <h1 class="slide-up delay-1">
+            Savor the <br /><span class="highlight">Extraordinary</span>
+          </h1>
+          <p class="slide-up delay-2">
+            Experience a culinary journey where smoke and fire meet fresh,
+            locally sourced ingredients in an elegant modern setting.
+          </p>
+          <div class="hero-buttons slide-up delay-3">
+            <a href="#menu" class="btn-primary">View Menu</a>
+            <a href="#about" class="btn-secondary">Our Story</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper fade-in delay-2">
+          <img
+            src="images/hero.png"
+            alt="Gourmet Burger on Wooden Table"
+            class="hero-image float-anim"
+          />
+          <div class="glass-badge">
+            <i class="fas fa-star"></i>
+            <span>Michelin Guide 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#features"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container features-grid">
+        <div class="feature-card fade-in-up">
+          <div class="feature-icon"><i class="fas fa-fire"></i></div>
+          <h3>Wood-Fired Perfection</h3>
+          <p>
+            Our dishes are cooked over open oak flames, imparting a distinct,
+            memorable smoky flavor.
+          </p>
+        </div>
+        <div class="feature-card fade-in-up delay-1">
+          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Farm to Table</h3>
+          <p>
+            We partner with local artisanal farms to bring you the freshest
+            seasonal ingredients every day.
+          </p>
+        </div>
+        <div class="feature-card fade-in-up delay-2">
+          <div class="feature-icon"><i class="fas fa-wine-glass"></i></div>
+          <h3>Curated Pairings</h3>
+          <p>
+            Enjoy an extensive wine list and craft cocktails expertly matched to
+            complement every dish.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section dark-bg">
+      <div class="container">
+        <div class="section-header text-center fade-in-up">
+          <span class="subtitle">Culinary Delights</span>
+          <h2>Signature <span class="highlight">Dishes</span></h2>
+          <div class="divider"></div>
+          <p>A taste of our chef's finest creations.</p>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Menu Item 1 -->
+          <div class="menu-item card-hover fade-in-up">
+            <div class="menu-img-wrapper">
+              <img src="images/pasta.png" alt="Artisan Pasta" />
+              <div class="price-tag">$24</div>
+            </div>
+            <div class="menu-info">
+              <h3>Truffle Artisan Pasta</h3>
+              <p>
+                Handmade tagliatelle, shaved summer truffles, aged parmesan
+                cream, and fresh organic basil.
+              </p>
+              <button class="btn-outline">Order Now</button>
+            </div>
+          </div>
+
+          <!-- Menu Item 2 -->
+          <div class="menu-item card-hover fade-in-up delay-1">
+            <div class="menu-img-wrapper">
+              <img src="images/steak.png" alt="Seared Steak" />
+              <div class="price-tag">$58</div>
+            </div>
+            <div class="menu-info">
+              <h3>Oak-Seared Wagyu</h3>
+              <p>
+                Perfectly seared A5 Wagyu with roasted asparagus, garlic infused
+                butter, and rich demi-glace.
+              </p>
+              <button class="btn-outline">Order Now</button>
+            </div>
+          </div>
+
+          <!-- Menu Item 3 -->
+          <div class="menu-item card-hover fade-in-up delay-2">
+            <div class="menu-img-wrapper">
+              <img src="images/dessert.png" alt="Lava Cake" />
+              <div class="price-tag">$14</div>
+            </div>
+            <div class="menu-info">
+              <h3>Decadent Lava Cake</h3>
+              <p>
+                Rich dark chocolate cake with a molten center, Madagascar
+                vanilla bean ice cream, and mixed berries.
+              </p>
+              <button class="btn-outline">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservations" class="reservations section">
+      <div class="container">
+        <div class="reservation-wrapper glass-panel fade-in">
+          <div class="reservation-content">
+            <span class="subtitle">Join Us</span>
+            <h2>Make a <span class="highlight">Reservation</span></h2>
+            <p>Experience an unforgettable evening. Secure your table today.</p>
+
+            <form
+              class="reservation-form"
+              onsubmit="
+                event.preventDefault();
+                alert('Reservation Confirmed! We look forward to seeing you.');
+              "
+            >
+              <div class="form-group">
+                <input type="text" placeholder="Full Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email Address" required />
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="date" required />
+                </div>
+                <div class="form-group">
+                  <input type="time" required />
+                </div>
+                <div class="form-group">
+                  <select required>
+                    <option value="" disabled selected>Guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5+ People</option>
+                  </select>
+                </div>
+              </div>
+              <button type="submit" class="btn-primary w-100 mt-3">
+                Confirm Booking
+              </button>
+            </form>
+          </div>
+          <div class="reservation-image">
+            <!-- Decor handled via CSS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo text-white">Lobster <span>Meals</span></a>
+          <p>
+            Modern dining with a touch of smoke. Rediscover the art of
+            fire-cooked cuisine.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Hours</h4>
+          <ul>
+            <li>
+              <span style="color: var(--text-muted)">Mon-Thu:</span> 5:00 PM -
+              10:00 PM
+            </li>
+            <li>
+              <span style="color: var(--text-muted)">Fri-Sat:</span> 5:00 PM -
+              11:30 PM
+            </li>
+            <li>
+              <span style="color: var(--text-muted)">Sun:</span> 4:00 PM - 9:00
+              PM
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt" style="margin-right: 8px"></i>
+              123 Culinary Lane, NY 10001
+            </li>
+            <li>
+              <i class="fas fa-phone" style="margin-right: 8px"></i> (555)
+              123-4567
+            </li>
+            <li>
+              <i class="fas fa-envelope" style="margin-right: 8px"></i>
+              hello@lobstermeals.com
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container text-center">
+          <p>&copy; 2026 Lobster Meals. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Simple JS for Navbar and Mobile Menu -->
+    <script>
+      window.addEventListener("scroll", () => {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      const mobileBtn = document.querySelector(".mobile-menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+      const icon = mobileBtn.querySelector("i");
+
+      mobileBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        if (navLinks.classList.contains("active")) {
+          icon.classList.remove("fa-bars");
+          icon.classList.add("fa-times");
+        } else {
+          icon.classList.remove("fa-times");
+          icon.classList.add("fa-bars");
+        }
+      });
+
+      // Close mobile menu when a link is clicked
+      navLinks.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          icon.classList.remove("fa-times");
+          icon.classList.add("fa-bars");
+        });
+      });
+    </script>
+  </body>
+</html>
